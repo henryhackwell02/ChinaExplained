@@ -97,13 +97,14 @@ class ParallaxEffect {
     }
 
     update() {
-        const scrolled = this.lastScrollY;
-        const parallaxSpeed = 0.5;
-        
-        if (this.parallaxBg) {
-            this.parallaxBg.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
-        }
-        
+        // Disabled: parallax effect was causing background to scroll away
+        // const scrolled = this.lastScrollY;
+        // const parallaxSpeed = 0.5;
+        //
+        // if (this.parallaxBg) {
+        //     this.parallaxBg.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+        // }
+
         this.ticking = false;
     }
 }
