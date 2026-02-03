@@ -319,21 +319,21 @@ h3 {
     width: 100%;
 }
 
-.nav-cta {
+.main-nav a.nav-cta {
     background: linear-gradient(135deg, var(--color-red) 0%, var(--color-gold) 100%);
     color: white !important;
-    padding: var(--space-xs) var(--space-lg);
+    padding: var(--space-xs) var(--space-md);
     border-radius: 8px;
     font-weight: 600;
     box-shadow: 0 4px 12px var(--color-primary-glow);
     transition: all 0.3s ease;
 }
 
-.nav-cta::after {
+.main-nav a.nav-cta::after {
     display: none;
 }
 
-.nav-cta:hover {
+.main-nav a.nav-cta:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px var(--color-primary-glow);
 }
